@@ -26,9 +26,25 @@ body{
 .nav-row {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     padding: 1rem 1rem;
     letter-spacing: 5px;
+}
+
+.cv-button{
+    text-decoration: none;
+    padding: 0.7rem 0.7rem;
+    border-radius: 15px;
+    border: 1px solid var(--text-color);
+    letter-spacing: 1px;
+    color: black;
+    transition: all 0.3s ease-in-out ;
+}
+
+.cv-button:hover{
+    background-color: var(--text-color);
+    color: white;
+    transition: all 0.3s ease-in-out ;
 }
 
 .section-container{
@@ -79,7 +95,7 @@ hr{
     padding: 0rem 3rem;
     margin-top: 1rem;
     letter-spacing: 1px;
-    /* color: #2d232e; */
+    color: var(--text-color);
 }
 
 .hero {

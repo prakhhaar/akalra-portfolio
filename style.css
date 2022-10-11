@@ -49,13 +49,22 @@ hr{
     padding: 0 1rem;
 }
 
-#instagram:hover{
-    src: url(/Images/DarkIcons/instagram-icon-dark.svg);
-}
-
 .icons {
     padding: 0.5rem 0.5rem;
     width: 30px;
+}
+
+.instagram:hover{
+    transition: all 1s ease-in-out;
+    content: url("/Images/DarkIcons/instagram-icon-dark.svg");
+}
+
+.behance:hover{
+    content: url("/Images/DarkIcons/behance-icon-dark.svg");
+}
+
+.linkedin:hover{
+    content: url("/Images/DarkIcons/linkedIn-dark-icon.svg");
 }
 
 .heading-text {
@@ -181,6 +190,18 @@ hr{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.instagram-light:hover{
+    content: url("/Images/LightIcons/instagram-icon-light.svg");
+}
+
+.behance-light:hover{
+    content: url("/Images/LightIcons/behance-icon-light.svg");
+}
+
+.linkedin-light:hover{
+    content: url("/Images/LightIcons/linkedIn-dark-light.svg");
 }
 
 .email{

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap");
+
+:root {
+    --social-link: #aeafae;
+    --text-color: #707071;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-container {
+    padding: 5rem 5rem;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 1rem 1rem;
+    letter-spacing: 5px;
+}
+
+.section-container{
+    padding: 0 5rem;
+}
+
+hr{
+    display: inline-block;
+    opacity: 0.8;
+    width: 17%;
+    /* height: 0.1px; */
+    border-radius: 5px;
+    background-color: var(--social-link);
+}
+
+.social-links-row {
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.social-links {
+    padding: 0 1rem;
+}
+
+.icons {
+    padding: 0.5rem 0.5rem;
+    width: 25px;
+}
+
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 3rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero {
+    display: flex;
+    padding: 0rem 5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 750px){
+    .hero {
+        display: flex;
+        padding: 0rem 1rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+.hero-image{
+    max-width: 170px;
+    border-radius: 5px;
+
+}
+
+.hero-text-column{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+.hero-text{
+    color: var(--text-color);
+    margin: 0.5rem 0rem;
+    font-size: 12px;
+}
+
+.section-heading{
+    padding: 2rem 3rem;
+}
+
+.skills-text{
+    padding: 0rem 5rem 1rem 5rem;
+    width: 50%;
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.skills-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    /* flex-wrap: wrap; */
+}
+
+.skills-item{
+    font-size: 10px;
+}
+
+.project-text{
+    text-align: center;
+    padding: 3rem 0rem;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+

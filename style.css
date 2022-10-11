@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap");
 
 :root {
+    --background-color: #f1f0ea;
     --social-link: #aeafae;
-    --text-color: #707071;
+    --text-color: #474448;
 }
 
 * {
     font-family: "Montserrat", sans-serif;
     margin: 0;
+}
+
+body{
+    background-color: var(--background-color);
 }
 
 ::-webkit-scrollbar {
@@ -74,6 +79,7 @@ hr{
     padding: 0rem 3rem;
     margin-top: 1rem;
     letter-spacing: 1px;
+    /* color: #2d232e; */
 }
 
 .hero {

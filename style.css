@@ -33,7 +33,7 @@
 hr{
     display: inline-block;
     opacity: 0.8;
-    width: 17%;
+    width: 10%;
     /* height: 0.1px; */
     border-radius: 5px;
     background-color: var(--social-link);
@@ -49,14 +49,19 @@ hr{
     padding: 0 1rem;
 }
 
+#instagram:hover{
+    src: url(/Images/DarkIcons/instagram-icon-dark.svg);
+}
+
 .icons {
     padding: 0.5rem 0.5rem;
-    width: 25px;
+    width: 30px;
 }
 
 .heading-text {
     display: flex;
     flex-direction: column;
+    font-size: 30px;
     padding: 0rem 3rem;
     margin-top: 1rem;
     letter-spacing: 1px;
@@ -84,7 +89,7 @@ hr{
 }
 
 .hero-image{
-    max-width: 170px;
+    max-width: 250px;
     border-radius: 5px;
 
 }
@@ -92,23 +97,24 @@ hr{
 .hero-text-column{
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem
 }
 
 .hero-text{
     color: var(--text-color);
     margin: 0.5rem 0rem;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .section-heading{
     padding: 2rem 3rem;
+    font-size: 22px;
 }
 
 .skills-text{
-    padding: 0rem 5rem 1rem 5rem;
+    padding: 0rem 3rem 1rem 3rem;
     width: 50%;
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-color);
 }
 
@@ -116,19 +122,86 @@ hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 8rem;
     /* flex-wrap: wrap; */
 }
 
 .skills-item{
-    font-size: 10px;
+    font-size: 18px;
+    /* font-style: italic; */
+}
+
+.skills-item:hover{
+    color: var(--text-color);
+    cursor: pointer;
 }
 
 .project-text{
     text-align: center;
-    padding: 3rem 0rem;
+    padding: 8rem 0rem;
     font-style: italic;
+    font-size: 16px;
     color: var(--text-color);
 }
+
+.footer{
+    background-color: #1f1f27;
+    color: var(--social-link);
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 5rem;
+}
+
+.cta-text{
+    font-size: 16px;
+    margin: 1rem 0rem;
+    width: 40%;
+    letter-spacing: 1px ;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 750px){
+    .footer-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-text{
+        width: 100%;
+    }
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.email{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+
+.email a {
+    text-decoration: none;
+    color: var(--social-link);
+}
+
+.email:hover{
+    color: white;
+}
+
+.socials{
+    align-items: flex-end;
+}
+
 
 

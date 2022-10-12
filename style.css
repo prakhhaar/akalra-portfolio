@@ -174,7 +174,7 @@ hr{
     /* flex-wrap: wrap; */
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1500px){
     .project-row{
         flex-wrap: wrap;
     }
@@ -183,7 +183,7 @@ hr{
 .u-clearfix:before,
   .u-clearfix:after {
     content: " ";
-    display: table;
+    display: flex;
   }
   
   .u-clearfix:after {

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
 
 :root {
     --background-color: #f1f0ea;
@@ -135,6 +135,8 @@ hr{
     color: var(--text-color);
     margin: 0.5rem 0rem;
     font-size: 16px;
+    line-height: 25px;
+    width: 90%;
 }
 
 .section-heading{
@@ -144,8 +146,9 @@ hr{
 
 .skills-text{
     padding: 0rem 3rem 1rem 3rem;
-    width: 50%;
+    /* width: 44%; */
     font-size: 16px;
+    line-height: 25px;
     color: var(--text-color);
 }
 

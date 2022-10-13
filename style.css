@@ -75,16 +75,16 @@ hr{
     width: 30px;
 }
 
-.instagram:hover{
+.instagram-dark:hover{
     transition: all 1s ease-in-out;
     content: url("/Images/DarkIcons/instagram-icon-dark.svg");
 }
 
-.behance:hover{
+.behance-dark:hover{
     content: url("/Images/DarkIcons/behance-icon-dark.svg");
 }
 
-.linkedin:hover{
+.linkedin-dark:hover{
     content: url("/Images/DarkIcons/linkedIn-dark-icon.svg");
 }
 
@@ -205,6 +205,7 @@ hr{
     margin: 25px;
     position: relative;
     width: 692px;
+    cursor: pointer;
   }
   
   .card {
@@ -265,21 +266,16 @@ hr{
     cursor: pointer;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 6px;
-    margin: 5px 0 20px;
+    letter-spacing: 4px;
+    margin: 5px 0 20px 0;
     position: relative;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
   }
-  
-  .card-read:after {
-    background-color: #b8bddd;
-    content: "";
-    display: block;
-    height: 1px;
-    position: absolute;
-    top: 9px;
-    width: 75%;
+
+  .right-arrow{
+    width: 22px;
+    margin-bottom: -7px;
   }
   
   .card-tag {

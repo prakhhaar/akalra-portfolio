@@ -379,5 +379,23 @@ hr{
     align-items: flex-end;
 }
 
+/* PROJECT PAGE */
+
+.project-heading{
+    padding: 3rem 5rem;
+}
+
+.project-description{
+    padding: 0rem 8rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.images-column{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
 
 

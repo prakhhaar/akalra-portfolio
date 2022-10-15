@@ -76,7 +76,7 @@ hr{
 }
 
 .instagram-dark:hover{
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     content: url("/Images/DarkIcons/instagram-icon-dark.svg");
 }
 

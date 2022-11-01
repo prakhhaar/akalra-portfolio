@@ -400,3 +400,120 @@ hr {
   flex-direction: column;
   padding: 5rem;
 }
+
+.blog-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10rem;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.blog-flip{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rem;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.blog-cover-image{
+  max-width: 400px;
+  border-radius: 2px;
+}
+
+.blog-heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  /* padding-top: 10rem; */
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+}
+
+.blog-heading-flip{
+  font-size: 3rem;
+  font-weight: bolder;
+  /* padding-top: 10rem; */
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+}
+
+
+.read-more-button{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  letter-spacing: 3px;
+  /* padding-top: 5rem; */
+  margin-left: 0.5rem;
+}
+
+.flip{
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+.blog-cta-text{
+  display: flex;
+  /* padding-left: 5rem; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.read-more-row{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.read-more-line{
+  height: 0.02rem;
+  width: 170px;
+  margin-left: -12px;
+  background-color: black;
+  border: 0.02rem solid rgb(0, 0, 0);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.read-more-line-flip{
+  height: 0.02rem;
+  width: 180px;
+  margin-right: -12px;
+  background-color: black;
+  border: 0.02rem solid rgb(0, 0, 0);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.hover-underline-animation {
+ display: inline-block;
+ position: relative;
+ color: black;
+}
+
+.hover-underline-animation:after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ transform: scaleX(0);
+ height: 2px;
+ bottom: -10px;
+ left: 0;
+ background-color: black;
+ transform-origin: bottom right;
+ transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+ transform: scaleX(1);
+ transform-origin: bottom left;
+}

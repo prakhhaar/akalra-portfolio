@@ -144,6 +144,13 @@ hr {
   font-size: 22px;
 }
 
+.blog-heading-major{
+  text-align:center;
+  font-size:xx-large; 
+  font-weight:bold;
+  padding: 2rem 0rem;
+}
+
 .skills-text {
   padding: 0rem 3rem 1rem 3rem;
   /* width: 44%; */
@@ -419,7 +426,7 @@ hr {
 .blog-flip{
   display: flex;
   flex-direction: row;
-  padding-left: 35rem;
+  padding-left: 32rem;
   /* flex-wrap: wrap; */
   padding-bottom: 1rem;
 }

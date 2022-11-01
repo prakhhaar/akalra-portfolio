@@ -405,7 +405,7 @@ hr {
 .blog-container{
   display: flex;
   flex-direction: column;
-  /* max-width: 100%; */
+  /* max-width: 80%; */
 }
 
 .blog{

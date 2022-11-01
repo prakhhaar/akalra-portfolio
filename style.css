@@ -404,6 +404,7 @@ hr {
 .blog-container{
   display: flex;
   flex-direction: column;
+  /* max-width: 100%; */
 }
 
 .blog{
@@ -417,8 +418,8 @@ hr {
 .blog-flip{
   display: flex;
   flex-direction: row;
-  padding-left: 30rem;
-  flex-wrap: wrap;
+  padding-left: 35rem;
+  /* flex-wrap: wrap; */
   padding-bottom: 1rem;
 }
 
@@ -464,6 +465,7 @@ hr {
   display: flex;
   /* padding-left: 5rem; */
   flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 

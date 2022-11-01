@@ -39,6 +39,7 @@ body {
   letter-spacing: 1px;
   color: var(--text-color);
   transition: all 0.3s ease-in-out;
+  letter-spacing: 5px;
 }
 
 .cv-button:hover {
@@ -134,7 +135,7 @@ hr {
   color: var(--text-color);
   margin: 0.5rem 0rem;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 27px;
   width: 90%;
 }
 
@@ -410,7 +411,7 @@ hr {
 .blog{
   display: flex;
   flex-direction: row;
-  padding-left: 10rem;
+  padding-left: 7rem;
   flex-wrap: wrap;
   padding-bottom: 1rem;
 }

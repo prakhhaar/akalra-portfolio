@@ -429,6 +429,7 @@ hr {
   display: flex;
   flex-direction: row;
   padding-left: 30rem;
+  margin-right: 7rem;
   justify-content: flex-end;
   /* flex-wrap: wrap; */
   padding-bottom: 1rem;
@@ -469,7 +470,7 @@ hr {
 
 .flip{
   margin-left: 0;
-  margin-right: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .blog-cta-text{
@@ -483,6 +484,7 @@ hr {
 .read-more-row{
   display: flex;
   flex-direction: row;
+  /* flex-wrap: nowrap; */
   /* justify-content: space-around; */
   align-items: center;
 }
@@ -501,6 +503,7 @@ hr {
   height: 0.02rem;
   width: 180px;
   margin-right: -12px;
+  /* margin-left: 2px; */
   background-color: black;
   border: 0.02rem solid rgb(0, 0, 0);
   text-decoration: none;

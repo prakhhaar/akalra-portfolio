@@ -419,6 +419,7 @@ hr {
 .blog{
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   padding-left: 7rem;
   flex-wrap: wrap;
   padding-bottom: 1rem;
@@ -427,7 +428,8 @@ hr {
 .blog-flip{
   display: flex;
   flex-direction: row;
-  padding-left: 32rem;
+  padding-left: 30rem;
+  justify-content: flex-end;
   /* flex-wrap: wrap; */
   padding-bottom: 1rem;
 }
